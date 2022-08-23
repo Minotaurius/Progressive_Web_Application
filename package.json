@@ -1,0 +1,19 @@
+{
+  "name": "progressive_web_application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Minotaurius/Progressive_Web_Application.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Minotaurius/Progressive_Web_Application/issues"
+  },
+  "homepage": "https://github.com/Minotaurius/Progressive_Web_Application#readme"
+}
