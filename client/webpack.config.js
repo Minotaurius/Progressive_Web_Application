@@ -22,9 +22,7 @@ module.exports = () => {
     plugins: [
       new HtmlWebpackPlugin({
         title: 'J.A.T.E',
-        filename: 'index.html',
-        template: path.join(__dirname, 'src/index.html'),
-        inject: 'body'
+        template: './index.html',
       }),
       new MiniCssExtractPlugin({
         filename: 'style.css'
@@ -42,7 +40,8 @@ module.exports = () => {
         icons: {
           src: path.resolve('src/images/logo.png'),
           sizes: [96, 128, 192, 256, 384, 512],
-          ios: true
+          ios: true,
+          destinations: path.join('assets', 'icons') 
         }
 
       })
