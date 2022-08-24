@@ -56,9 +56,9 @@ module.exports = () => {
         },
         {
           test: /\.js$/,
-          exclude: /node_modules/,
+          exclude: [/node_modules/, require.resolve('./index.html')],
           use: {
-            loader: 'babel-loader',
+            loader: 'babel-loader', 
             options: {
               presets: ['@babel/preset-env']
             }
