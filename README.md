@@ -1,4 +1,4 @@
-# Just Another Text Blog - A Progressive Web Application
+# Just Another Text Editor - A Progressive Web Application
 
 ## Description
 
