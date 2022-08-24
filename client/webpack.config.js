@@ -37,8 +37,8 @@ module.exports = () => {
         short_name: "J.A.T.E",
         description: "A browser or computer application to take notes!",
         background_color: '#b0b8b2',
-        start_url: './',
-        publicPath: './',
+        start_url: '/',
+        publicPath: '/',
         inject: true,
         theme_color: '#b0b8b2',
         icons: {
