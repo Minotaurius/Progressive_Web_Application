@@ -19,7 +19,7 @@ export const putDb = async (content) => {
   const store = tx.objectStore('jate');
   const request = store.add({ jate: content });
   const result = await request
-  console.log('result.value', result)};
+  console.log('🚀 - data saved to the database', result)};
 
 // TODO: Add logic for a method that gets all the content from the database
 export const getDb = async () => {
