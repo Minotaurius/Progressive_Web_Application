@@ -26,6 +26,9 @@ module.exports = () => {
         template: path.join(__dirname, 'src/index.html'),
         inject: 'body'
       }),
+      new MiniCssExtractPlugin({
+        filename: 'style.css'
+      }),
       new WebpackPwaManifest({
         fingerprints: false,
         name: 'Just Another Text Editor',
